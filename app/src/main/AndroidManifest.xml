@@ -9,9 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Withdraw"></activity>
-        <activity android:name=".Deposit" />
-        <activity android:name=".Home" />
+        <activity android:name=".Withdraw" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Deposit" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".Home" android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".MainActivity"
             android:theme="@style/AppTheme.FullScreen">
